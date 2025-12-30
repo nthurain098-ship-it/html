@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    background-color: #fafbf8;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #0D6EFD;
+    padding-left: 70px;
+    gap: 40;
+}
+.collegeLogo{
+    width:6em;
+    height: 6em;
+
+}
+.greet-txt{
+    font-family:"Poppins",sans-serif;
+    color: #fff;
+    font-size: 2em;
+}
+.nav{
+    width:100%;
+    height:50px;
+    background-color: #d3d2d2a1;
+    margin-top: 5px;
+}
+.nav-list{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+}
+.nav-list a{
+    color: black;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    font-size-adjust: 0.6;
+}
+.course-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+}
+.course-title,.pro-title{
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    padding-top: 3px;
+    margin-top: 3px;
+
+}
+.appc-card,.proc-card,.dipc-class{
+    width: 300px;
+    height: 420px;
+    background-color: #0D6EFD;
+    color: #f1f0f1;
+}
+.card-img{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: rgb(17, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-logo{
+    width: 255px;
+    height: 200px;
+}
+.card-title{
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 15pt;
+}
+.card-desc-para{
+    font-size: 11pt;
+    text-align: center;
+    font-family: "Arial";
+    padding: 10px;
+}
+.card-btn{
+    text-align: center;
+    margin-top: 8px;
+}
+.card-btn-link{
+    background-color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+}
+.footer-title{
+    text-align: center;
+    font-size: 23pt;
+    font-family: "Poppins",sans-serif;
+}
+.address-section{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mng{
+    display: flex;
+    margin-left: 100px;
+    height: fit-content;
+    align-items: center;
+    gap: 70px;
+}
+.mng-img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #0D6EFD;
+    border-radius: 50px;
+}
+.address-title{
+    font-family: "Poppins",sans-serif;
+    font-size: 26pt;
+    color: #0D6EFD;
+}
+.address{
+    font-family: "Poppins",sans-serif;
+    font-size: 16pt;
+    line-height: 40px;
+}
